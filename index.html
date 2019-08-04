@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Aditya Bagga</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -369,7 +369,7 @@
     				</div>
   				</div>
   				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(projectsBluestamp.png);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/projectsBluestamp.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3><a href="#">Fully Automated Robotic Feeding Arm for the Disabled</a></h3>
@@ -461,22 +461,17 @@
           </div>
         </div>
     		<div class="row">
-					<div class="col-md-4 text-center d-flex ftco-animate js-hovering" onclick="myFunction1()">
+					<div class="col-md-4 text-center d-flex ftco-animate" onclick="myFunction1()">
 						<a class="services-1">
 							<span class="icon">
-								<i class="flaticon-close-envelope"></i>
+								<i class="flaticon-political-candidate-speech"></i>
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Speech and Debate</h3>
 							</div>
 
-							<div id="div1">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+							<div id="div1" class="desc">
+								<p>1. 3rd Place in Extemporaneous Speaking at California State Championships<br> 2. Octofinalist at JV Western Championships and Santa Clara Invitational<br> 3. Winning Records at Stephen Stewart Invitational and Panther Fun Invitational</p>
 							</div>
 						</a>
 
@@ -492,12 +487,7 @@
 								<h3 class="mb-5">Robotics</h3>
 							</div>
 							<div id="div2">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+								<p>1. 6th in the 2017 World Robotic Olympiad United States Nationals <br> 2. Champions Award in the 2016 First Lego League Qualifying Tournament</p>
 							</div>
 						</a>
 					</div>
@@ -510,12 +500,7 @@
 								<h3 class="mb-5">Science and Research</h3>
 							</div>
 							<div id="div3">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+								<p>TBD</p>
 							</div>
 						</a>
 					</div>
@@ -529,12 +514,7 @@
 								<h3 class="mb-5">Leadership</h3>
 							</div>
 							<div id="div4">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+								<p>TBD</p>
 							</div>
 						</a>
 
@@ -548,30 +528,20 @@
 								<h3 class="mb-5">Computing</h3>
 							</div>
 							<div id="div5">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+								<p>TBD</p>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-4 text-center d-flex ftco-animate" onclick="myFunction6()">
 						<a class="services-1">
 							<span class="icon">
-								<i class="flaticon-political-candidate-speech"></i>
+								<i class="flaticon-team"></i>
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Business</h3>
 							</div>
 							<div id="div6">
-								<ol>
-									<li><p>Award 1</p></li>
-									<li><p>Award 2</p></li>
-									<li><p>Award 3</p></li>
-									<li><p>Award 4</p></li>
-								</ol>
+								<p>TBD</p>
 							</div>
 						</a>
 					</div>
@@ -851,79 +821,110 @@
   <script src="js/main.js"></script>
     
   <script>
-  	var x = document.getElementById("div1");
-  	x.style.display = "none"
+  	var x1 = document.getElementById("div1");
+  	x1.style.display = "none";
 
-  	var x = document.getElementById("div2");
-  	x.style.display = "none"
+  	var x2 = document.getElementById("div2");
+  	x2.style.display = "none";
 
-  	var x = document.getElementById("div3");
-  	x.style.display = "none"
+  	var x3 = document.getElementById("div3");
+  	x3.style.display = "none";
 
-  	var x = document.getElementById("div4");
-  	x.style.display = "none"
+  	var x4 = document.getElementById("div4");
+  	x4.style.display = "none";
 
-  	var x = document.getElementById("div5");
-  	x.style.display = "none"
+  	var x5 = document.getElementById("div5");
+  	x5.style.display = "none";
 
-  	var x = document.getElementById("div6");
-  	x.style.display = "none"
+  	var x6 = document.getElementById("div6");
+  	x6.style.display = "none";
 
 
-  	
-  	function myFunction1(){
-  		var x = document.getElementById("div1");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-  	}
-  	function myFunction2(){
-  		var x = document.getElementById("div2");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-    	
-  	}
-  	function myFunction3(){
-  		var x = document.getElementById("div3");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-  		
-  	}
-  	function myFunction4(){
-  		var x = document.getElementById("div4");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-  		
-  	}
-  	function myFunction5(){
-  		var x = document.getElementById("div5");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-  		
-  	}
-  	function myFunction6(){
-  		var x = document.getElementById("div6");
-		  if (x.style.display === "none") {
-		    x.style.display = "block";
-		  } else {
-		    x.style.display = "none";
-		  }
-  		
-  	}
+	  	
+	  	function myFunction1(){
+	  		var x = document.getElementById("div1");
+			  if (x.style.display === "none") {	
+			    x.style.display = "block";
+			    x2.style.display="none";
+		  		x3.style.display="none";
+		  		x4.style.display="none";
+		  		x5.style.display="none";
+		  		x6.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	  	}
+	  	function myFunction2(){
+	  		var x = document.getElementById("div2");
+			  if (x.style.display === "none") {
+			    x.style.display = "block";
+			    x3.style.display="none";
+		  		x4.style.display="none";
+		  		x5.style.display="none";
+		  		x6.style.display="none";
+		  		x1.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	    	
+	  	}
+	  	function myFunction3(){
+	  		var x = document.getElementById("div3");
+			  if (x.style.display === "none") {
+			    x.style.display = "block";
+			    x4.style.display="none";
+		  		x5.style.display="none";
+		  		x6.style.display="none";
+		  		x1.style.display="none";
+		  		x2.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	  		
+	  	}
+	  	function myFunction4(){
+	  		var x = document.getElementById("div4");
+			  if (x.style.display === "none") {
+			    x.style.display = "block";
+			    x5.style.display="none";
+		  		x6.style.display="none";
+		  		x1.style.display="none";
+		  		x2.style.display="none";
+		  		x3.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	  		
+	  	}
+	  	function myFunction5(){
+	  		var x = document.getElementById("div5");
+			  if (x.style.display === "none") {
+			    x.style.display = "block";
+			    x6.style.display="none";
+		  		x1.style.display="none";
+		  		x2.style.display="none";
+		  		x3.style.display="none";
+		  		x4.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	  		
+	  	}
+	  	function myFunction6(){
+	  		var x = document.getElementById("div6");
+			  if (x.style.display === "none") {
+			    x.style.display = "block";
+			    x1.style.display="none";
+		  		x2.style.display="none";
+		  		x3.style.display="none";
+		  		x5.style.display="none";
+		  		x5.style.display="none";
+			  } else {
+			    x.style.display = "none";
+			  }
+	  		
+	  	}
+	
 	
 
   </script>
